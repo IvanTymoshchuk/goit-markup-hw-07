@@ -1,0 +1,48 @@
+/* Footer */
+
+.order {
+  background-color: $bg-color-order;
+  padding: 60px 0;
+}
+
+.order-box {
+  display: flex;
+}
+
+.order-width {
+  min-width: 231px;
+}
+
+.order-adress {
+  margin-top: 20px;
+}
+
+.order-information {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.info,
+.mail {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.mail {
+  color: $primary-white-color;
+  text-decoration: none;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  transition: color 250ms $calc-animation;
+
+  &:hover,
+&:focus {
+  color: $actent-color;
+}
+}
+

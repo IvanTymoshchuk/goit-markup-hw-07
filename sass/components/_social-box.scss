@@ -1,0 +1,35 @@
+/* Social  */
+
+.social-box {
+  margin-left: 70px;
+}
+
+
+.social-box__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.social-box__title--color {
+  margin-bottom: 20px;
+  color: $primary-white-color;
+}
+
+.social-box__icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icon__list{
+  width: 44px;
+  height: 44px;
+}
+
+.social-icon {
+  color: $primary-white-color;
+  background-color: rgba(255, 255, 255, 0.1);
+}

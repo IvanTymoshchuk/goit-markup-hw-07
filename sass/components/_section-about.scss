@@ -1,0 +1,45 @@
+/* Section about work*/
+
+
+.section-about {
+  padding-bottom: 0;
+}
+
+.section-about__items {
+  list-style: none;
+  display: flex;
+}
+
+.section-about__items:last-child {
+  margin-right: 0;
+}
+
+.section-about__list {
+  margin-right: 30px;
+  width: 270px;
+}
+
+.section-about__bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: $primary-white-color;
+}
+
+.section-about__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-about__text {
+  color: $title-text-color;
+  font-size: 14px;
+  line-height: 1.72;
+}

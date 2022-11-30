@@ -1,0 +1,38 @@
+/* Section what we do - Чим займаємось */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.section-work__list {
+  color:$primary-text-color;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.section-works__item {
+  position: relative;
+}
+
+.section-works__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-product {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.section-about__title--color {
+  color: $bg-color-body;
+  text-align: center;
+  padding-top: 27px;
+}

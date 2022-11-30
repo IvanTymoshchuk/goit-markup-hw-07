@@ -1,0 +1,74 @@
+/* footer підпишись */
+
+.form-footer {
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+}
+
+.form-footer_title--color {
+  color: $bg-color-body;
+  margin-bottom: 20px;
+}
+
+.form-footer_title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.form-footer__label {
+  display: flex;
+}
+
+.form-footer__label input {
+  outline: none;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;
+  color: $bg-color-body;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.form-footer__label input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-footer__bt {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+}
+
+.form-footer-icon {
+  margin-left: 10px;
+  display: inline-block;
+  fill: $bg-color-body;
+}
+
+.form-button {
+  width: 200px;
+  height: 50px;
+  color: $primary-white-color;
+  background-color: $actent-color;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.form-button__footer{
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+}

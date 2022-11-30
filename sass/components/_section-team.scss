@@ -1,0 +1,50 @@
+/* Employess - Працівники */
+
+.section-team__work {
+  background-color: $primary-white-color;
+}
+
+.section-team__list {
+  display: flex;
+  align-items: center;
+}
+
+.section-team {
+  width: 270px;
+  background-color: $primary-white-color;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.section-team:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-team__box {
+  padding: 30px 32px;
+}
+
+
+
+.section-team__name {
+  margin-bottom: 10px;
+
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.section-team__position {
+  color: $title-text-color;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+
+
+

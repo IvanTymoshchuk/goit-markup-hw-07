@@ -1,0 +1,122 @@
+/* Вікно Замовити послугу */
+
+.form {
+  width: 448px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-title {
+  display: block;
+  font-size: 20px;
+  line-height: 1.15;
+  margin-bottom: 12px;
+  color: $primary-text-color;
+}
+
+.form-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-label__title {
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color:$title-text-color;
+}
+
+.form-input {
+  outline: none;
+  position: relative;
+  height: 40px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+
+  &:focus {
+  cursor: pointer;
+  border-color: $bg-svg-icon;
+}
+}
+
+.form-input:focus + .form-label__icon {
+  fill: $bg-svg-icon;
+}
+
+
+
+.form-label__icon {
+  position: absolute;
+  top: 55%;
+  left: 12px;
+  display: inline-block;
+}
+
+.form-label__margin{
+margin-bottom: 20px;
+}
+
+.form-input__tex {
+  outline: none;
+  position: relative;
+  height: 120px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+}
+
+.texteria::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-label__rules {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form-label__checkbox {
+  appearance: none;
+}
+
+.form-label__checkbox:checked + .form-label__icon--rules {
+  border: 2px solid transparent;
+  fill: $primary-white-color;
+  background-color: $actent-color;
+  background-image: url(../images/icon-check.svg);
+  background-size: contain;
+  background-origin: border-box;
+}
+
+.form-label__icon--rules {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid $primary-text-color;
+  border-radius: 2px;
+  margin-right: 9px;
+}
+
+.form-label__comment {
+  font-size: 14px;
+  line-height: 1.71;
+  margin-right: 5px;
+  color: $title-text-color;
+}
+
+.form-label__link {
+  color: $bg-svg-icon;
+}
+
