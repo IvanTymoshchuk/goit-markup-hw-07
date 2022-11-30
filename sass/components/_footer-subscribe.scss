@@ -6,16 +6,10 @@
   margin-left: 93px;
 }
 
-.form-footer_title--color {
+.form-footer_title {
+  @extend %titleStyle ;
   color: $bg-color-body;
   margin-bottom: 20px;
-}
-
-.form-footer_title{
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
 
 .form-footer__label {

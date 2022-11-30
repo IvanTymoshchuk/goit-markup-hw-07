@@ -30,12 +30,11 @@
   background-color: $primary-white-color;
 }
 
-.section-about__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+.section-about__title{
+  @extend %titleStyle ;
+  color: $bg-color-body;
+  text-align: center;
+  padding-top: 27px;
 }
 
 .section-about__text {
