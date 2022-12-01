@@ -11,7 +11,7 @@ body {
   padding-top: 94px;
 }
 .header {
-  border: 1px solid $bg-color-body;
+  border: 1px solid #ECECEC;
 }
 
 .container {
@@ -20,26 +20,4 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }

@@ -1,20 +1,25 @@
 @import "./utils/variables";
-@import "./base/normalize";
+@import "./utils/normalize";
 @import "./utils/visually-hidden";
 @import "./utils/placeholder";
 @import "./utils/mixin";
-@import "./components/general";
-@import "./components/header";
+@import "./base/resete";
+@import "./base/pachal-command";
 @import "./components/logo";
-@import "./components/hero";
 @import "./components/backdrop";
-@import "./components/form-html";
-@import "./components/section-about";
-@import "./components/section-work";
-@import "./components/section-team";
-@import "./components/section-custom";
-@import "./components/order";
-@import "./components/social-box";
 @import "./components/footer-subscribe";
-@import "./components/section-icon";
+@import "./components/components-portfolio/section-box-button";
+@import "./components/components-portfolio/section-portfolio_icon";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/form-html";
+@import "./layout/section-about";
+@import "./layout/section-work";
+@import "./layout/section-team";
+@import "./layout/section-custom";
+@import "./layout/order";
+@import "./layout/social-box";
+@import "./layout/section-icon";
+
+
 
