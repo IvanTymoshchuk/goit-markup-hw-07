@@ -1,13 +1,13 @@
 @import "./utils/variables";
 @import "./base/normalize";
 @import "./utils/visually-hidden";
+@import "./utils/placeholder";
+@import "./utils/mixin";
 @import "./components/general";
-@import "./components/placeholder";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/hero";
 @import "./components/backdrop";
-@import "./components/hero-form";
 @import "./components/form-html";
 @import "./components/section-about";
 @import "./components/section-work";
@@ -17,3 +17,4 @@
 @import "./components/social-box";
 @import "./components/footer-subscribe";
 @import "./components/section-icon";
+

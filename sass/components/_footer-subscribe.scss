@@ -7,7 +7,7 @@
 }
 
 .form-footer_title {
-  @extend %titleStyle ;
+  @extend %titleStyle;
   color: $bg-color-body;
   margin-bottom: 20px;
 }
@@ -61,7 +61,7 @@
   letter-spacing: 0.06em;
 }
 
-.form-button__footer{
+.form-button__footer {
   display: flex;
   align-items: center;
   padding-left: 28px;

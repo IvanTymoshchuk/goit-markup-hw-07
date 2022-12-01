@@ -7,8 +7,7 @@
   left: 0;
   top: 0;
   background-color: rgba(47, 48, 58, 0.4);
-  transition: opacity 250ms $calc-animation,
-    visibility 250ms $calc-animation;
+  transition: opacity 250ms $calc-animation, visibility 250ms $calc-animation;
 }
 
 .backdrop.is-hidden {
@@ -32,9 +31,7 @@
 }
 
 .backdrop-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centerFlex();
   position: absolute;
   padding: 0;
   fill: $fill-icon;
@@ -52,8 +49,7 @@
   height: 11px;
 
   &:hover {
-  cursor: pointer;
-  fill: $bg-svg-icon;
+    cursor: pointer;
+    fill: $bg-svg-icon;
+  }
 }
-}
-

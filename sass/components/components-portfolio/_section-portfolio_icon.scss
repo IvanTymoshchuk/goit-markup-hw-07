@@ -11,12 +11,12 @@
   width: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
   transform: box-shadow 250ms $calc-animation;
-}
 
-.section-portfolio__list:hover,
-.section-portfolio__list:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .section-portfolio__title {
@@ -61,7 +61,9 @@
   color: $primary-text-color;
 }
 
-.section-portfolio__link:hover .section-portfolio__overlay,
-.section-portfolio__link:focus .section-portfolio__overlay {
-  transform: translateY(0);
+.section-portfolio__overlay {
+  .section-portfolio__link:focus &,
+  .section-portfolio__link:hover & {
+    transform: translateY(0);
+  }
 }

@@ -1,6 +1,5 @@
 /* Section about work*/
 
-
 .section-about {
   padding-bottom: 0;
 }
@@ -20,9 +19,7 @@
 }
 
 .section-about__bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include centerFlex();
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
@@ -30,8 +27,13 @@
   background-color: $primary-white-color;
 }
 
-.section-about__title{
-  @extend %titleStyle ;
+.section-about__detals {
+  @extend %titleStyle;
+  margin-bottom: 10px;
+}
+
+.section-about__title {
+  @extend %titleStyle;
   color: $bg-color-body;
   text-align: center;
   padding-top: 27px;

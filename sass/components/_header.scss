@@ -1,4 +1,3 @@
-
 .header-main__nav {
   display: flex;
   align-items: center;
@@ -21,9 +20,9 @@
   transition: color 250ms $calc-animation;
 
   &:hover,
-  &:focus{
-  color: $actent-color;
-}
+  &:focus {
+    color: $actent-color;
+  }
 }
 
 .header-nav__link--active::after {
