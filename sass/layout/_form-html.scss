@@ -46,9 +46,9 @@
   }
 }
 
- .form-label__icon {
-  .form-input:focus &{
-   fill: $bg-svg-icon;
+.form-label__icon {
+  .form-input:focus & {
+    fill: $bg-svg-icon;
   }
 }
 
@@ -89,14 +89,14 @@
   appearance: none;
 }
 
- .form-label__icon--rules {
-  .form-label__checkbox:checked &{
- border: 2px solid transparent;
-  fill: $primary-white-color;
-  background-color: $actent-color;
-  background-image: url(../images/icon-check.svg);
-  background-size: contain;
-  background-origin: border-box;
+.form-label__icon--rules {
+  .form-label__checkbox:checked & {
+    border: 2px solid transparent;
+    fill: $primary-white-color;
+    background-color: $actent-color;
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
   }
 }
 
